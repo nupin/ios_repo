@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		089A0B331A6A25FA001DF6CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 089A0B321A6A25FA001DF6CF /* main.m */; };
+		089A0B361A6A25FA001DF6CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 089A0B351A6A25FA001DF6CF /* AppDelegate.m */; };
+		089A0B391A6A25FA001DF6CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 089A0B381A6A25FA001DF6CF /* ViewController.m */; };
+		089A0B3C1A6A25FA001DF6CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089A0B3A1A6A25FA001DF6CF /* Main.storyboard */; };
+		089A0B3E1A6A25FA001DF6CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 089A0B3D1A6A25FA001DF6CF /* Images.xcassets */; };
+		089A0B411A6A25FA001DF6CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 089A0B3F1A6A25FA001DF6CF /* LaunchScreen.xib */; };
+		089A0B4D1A6A25FA001DF6CF /* hall_bookingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 089A0B4C1A6A25FA001DF6CF /* hall_bookingTests.m */; };
+		08AF82741A6C38EA0049F660 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 08AF82731A6C38EA0049F660 /* libsqlite3.dylib */; };
+		08AF82771A6CD9650049F660 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AF82761A6CD9650049F660 /* DBManager.m */; };
+		08AF82791A6D043C0049F660 /* HallBooking.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 08AF82781A6D042E0049F660 /* HallBooking.sqlite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		089A0B471A6A25FA001DF6CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089A0B251A6A25FA001DF6CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 089A0B2C1A6A25FA001DF6CF;
+			remoteInfo = "hall booking";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089A0B2D1A6A25FA001DF6CF /* hall booking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hall booking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		089A0B311A6A25FA001DF6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		089A0B321A6A25FA001DF6CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		089A0B341A6A25FA001DF6CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		089A0B351A6A25FA001DF6CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		089A0B371A6A25FA001DF6CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		089A0B381A6A25FA001DF6CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		089A0B3B1A6A25FA001DF6CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		089A0B3D1A6A25FA001DF6CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		089A0B401A6A25FA001DF6CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		089A0B461A6A25FA001DF6CF /* hall bookingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hall bookingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		089A0B4B1A6A25FA001DF6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		089A0B4C1A6A25FA001DF6CF /* hall_bookingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hall_bookingTests.m; sourceTree = "<group>"; };
+		08AF82731A6C38EA0049F660 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		08AF82751A6CD7F60049F660 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManager.h; path = DataBase/DBManager.h; sourceTree = "<group>"; };
+		08AF82761A6CD9650049F660 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBManager.m; path = DataBase/DBManager.m; sourceTree = "<group>"; };
+		08AF82781A6D042E0049F660 /* HallBooking.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = HallBooking.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		089A0B2A1A6A25FA001DF6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08AF82741A6C38EA0049F660 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089A0B431A6A25FA001DF6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089A0B241A6A25FA001DF6CF = {
+			isa = PBXGroup;
+			children = (
+				08AF82731A6C38EA0049F660 /* libsqlite3.dylib */,
+				089A0B2F1A6A25FA001DF6CF /* hall booking */,
+				089A0B491A6A25FA001DF6CF /* hall bookingTests */,
+				089A0B2E1A6A25FA001DF6CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		089A0B2E1A6A25FA001DF6CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				089A0B2D1A6A25FA001DF6CF /* hall booking.app */,
+				089A0B461A6A25FA001DF6CF /* hall bookingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		089A0B2F1A6A25FA001DF6CF /* hall booking */ = {
+			isa = PBXGroup;
+			children = (
+				089A0B341A6A25FA001DF6CF /* AppDelegate.h */,
+				089A0B351A6A25FA001DF6CF /* AppDelegate.m */,
+				089A0B371A6A25FA001DF6CF /* ViewController.h */,
+				089A0B381A6A25FA001DF6CF /* ViewController.m */,
+				089A0B3A1A6A25FA001DF6CF /* Main.storyboard */,
+				089A0B3D1A6A25FA001DF6CF /* Images.xcassets */,
+				089A0B3F1A6A25FA001DF6CF /* LaunchScreen.xib */,
+				089A0B301A6A25FA001DF6CF /* Supporting Files */,
+			);
+			path = "hall booking";
+			sourceTree = "<group>";
+		};
+		089A0B301A6A25FA001DF6CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08AF82781A6D042E0049F660 /* HallBooking.sqlite */,
+				08AF82751A6CD7F60049F660 /* DBManager.h */,
+				08AF82761A6CD9650049F660 /* DBManager.m */,
+				089A0B311A6A25FA001DF6CF /* Info.plist */,
+				089A0B321A6A25FA001DF6CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		089A0B491A6A25FA001DF6CF /* hall bookingTests */ = {
+			isa = PBXGroup;
+			children = (
+				089A0B4C1A6A25FA001DF6CF /* hall_bookingTests.m */,
+				089A0B4A1A6A25FA001DF6CF /* Supporting Files */,
+			);
+			path = "hall bookingTests";
+			sourceTree = "<group>";
+		};
+		089A0B4A1A6A25FA001DF6CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				089A0B4B1A6A25FA001DF6CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		089A0B2C1A6A25FA001DF6CF /* hall booking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 089A0B501A6A25FA001DF6CF /* Build configuration list for PBXNativeTarget "hall booking" */;
+			buildPhases = (
+				089A0B291A6A25FA001DF6CF /* Sources */,
+				089A0B2A1A6A25FA001DF6CF /* Frameworks */,
+				089A0B2B1A6A25FA001DF6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hall booking";
+			productName = "hall booking";
+			productReference = 089A0B2D1A6A25FA001DF6CF /* hall booking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		089A0B451A6A25FA001DF6CF /* hall bookingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 089A0B531A6A25FA001DF6CF /* Build configuration list for PBXNativeTarget "hall bookingTests" */;
+			buildPhases = (
+				089A0B421A6A25FA001DF6CF /* Sources */,
+				089A0B431A6A25FA001DF6CF /* Frameworks */,
+				089A0B441A6A25FA001DF6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				089A0B481A6A25FA001DF6CF /* PBXTargetDependency */,
+			);
+			name = "hall bookingTests";
+			productName = "hall bookingTests";
+			productReference = 089A0B461A6A25FA001DF6CF /* hall bookingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089A0B251A6A25FA001DF6CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Nupin Pillai";
+				TargetAttributes = {
+					089A0B2C1A6A25FA001DF6CF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					089A0B451A6A25FA001DF6CF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 089A0B2C1A6A25FA001DF6CF;
+					};
+				};
+			};
+			buildConfigurationList = 089A0B281A6A25FA001DF6CF /* Build configuration list for PBXProject "hall booking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 089A0B241A6A25FA001DF6CF;
+			productRefGroup = 089A0B2E1A6A25FA001DF6CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				089A0B2C1A6A25FA001DF6CF /* hall booking */,
+				089A0B451A6A25FA001DF6CF /* hall bookingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		089A0B2B1A6A25FA001DF6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08AF82791A6D043C0049F660 /* HallBooking.sqlite in Resources */,
+				089A0B3C1A6A25FA001DF6CF /* Main.storyboard in Resources */,
+				089A0B411A6A25FA001DF6CF /* LaunchScreen.xib in Resources */,
+				089A0B3E1A6A25FA001DF6CF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089A0B441A6A25FA001DF6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		089A0B291A6A25FA001DF6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089A0B391A6A25FA001DF6CF /* ViewController.m in Sources */,
+				089A0B361A6A25FA001DF6CF /* AppDelegate.m in Sources */,
+				089A0B331A6A25FA001DF6CF /* main.m in Sources */,
+				08AF82771A6CD9650049F660 /* DBManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089A0B421A6A25FA001DF6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089A0B4D1A6A25FA001DF6CF /* hall_bookingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		089A0B481A6A25FA001DF6CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 089A0B2C1A6A25FA001DF6CF /* hall booking */;
+			targetProxy = 089A0B471A6A25FA001DF6CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089A0B3A1A6A25FA001DF6CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089A0B3B1A6A25FA001DF6CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		089A0B3F1A6A25FA001DF6CF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089A0B401A6A25FA001DF6CF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		089A0B4E1A6A25FA001DF6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		089A0B4F1A6A25FA001DF6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		089A0B511A6A25FA001DF6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "hall booking/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		089A0B521A6A25FA001DF6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "hall booking/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		089A0B541A6A25FA001DF6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "hall bookingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hall booking.app/hall booking";
+			};
+			name = Debug;
+		};
+		089A0B551A6A25FA001DF6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "hall bookingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hall booking.app/hall booking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		089A0B281A6A25FA001DF6CF /* Build configuration list for PBXProject "hall booking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089A0B4E1A6A25FA001DF6CF /* Debug */,
+				089A0B4F1A6A25FA001DF6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		089A0B501A6A25FA001DF6CF /* Build configuration list for PBXNativeTarget "hall booking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089A0B511A6A25FA001DF6CF /* Debug */,
+				089A0B521A6A25FA001DF6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		089A0B531A6A25FA001DF6CF /* Build configuration list for PBXNativeTarget "hall bookingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089A0B541A6A25FA001DF6CF /* Debug */,
+				089A0B551A6A25FA001DF6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089A0B251A6A25FA001DF6CF /* Project object */;
+}

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BH6-wT-Ttc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ir5-l9-tSn">
+            <objects>
+                <navigationController id="BH6-wT-Ttc" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1H8-ko-MDK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Im1-mL-DU3" kind="relationship" relationship="rootViewController" id="6xV-cB-D3a"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CVI-6N-dsY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1061" y="-55"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vaE-A9-SS9">
+            <objects>
+                <viewController id="Im1-mL-DU3" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PyP-TT-bdr"/>
+                        <viewControllerLayoutGuide type="bottom" id="lXJ-E0-x8x"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zIA-bC-VGG">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="State" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sEK-9R-d4T">
+                                <rect key="frame" x="47" y="94" width="53" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Region" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUs-2X-R3u">
+                                <rect key="frame" x="46" y="245" width="54" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pE2-eF-phd">
+                                <rect key="frame" x="46" y="423" width="54" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSZ-Ce-4gb">
+                                <rect key="frame" x="159" y="93" width="282" height="21"/>
+                                <color key="backgroundColor" red="0.47843137250000001" green="0.73333333329999995" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGn-bV-tgc">
+                                <rect key="frame" x="159" y="423" width="282" height="21"/>
+                                <color key="backgroundColor" red="0.47843137250000001" green="0.73333333329999995" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DZh-nc-bcZ">
+                                <rect key="frame" x="0.0" y="123" width="600" height="100"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Im1-mL-DU3" id="Gei-dC-1Of"/>
+                                    <outlet property="delegate" destination="Im1-mL-DU3" id="FV3-M0-gCu"/>
+                                </connections>
+                            </pickerView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5hb-GV-r62">
+                                <rect key="frame" x="0.0" y="274" width="600" height="100"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Im1-mL-DU3" id="BkT-2X-cn2"/>
+                                    <outlet property="delegate" destination="Im1-mL-DU3" id="fpG-BF-kBb"/>
+                                </connections>
+                            </pickerView>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="DJV-Jm-3J7">
+                                <rect key="frame" x="0.0" y="462" width="600" height="100"/>
+                                <date key="date" timeIntervalSinceReferenceDate="442926864.49882001">
+                                    <!--2015-01-14 11:14:24 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="dateSelection:" destination="Im1-mL-DU3" eventType="valueChanged" id="GYJ-Q2-U51"/>
+                                </connections>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPL-Co-x2N">
+                                <rect key="frame" x="276" y="633" width="49" height="30"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="submitBtn:" destination="Im1-mL-DU3" eventType="touchUpInside" id="ckW-B4-Loa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OJQ-xI-aJP"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="dateLbl" destination="eGn-bV-tgc" id="TIa-ld-Gkc"/>
+                        <outlet property="datePicker" destination="DJV-Jm-3J7" id="dfG-V2-qbZ"/>
+                        <outlet property="regionPicker" destination="5hb-GV-r62" id="FbL-53-mss"/>
+                        <outlet property="stateLbl" destination="tSZ-Ce-4gb" id="ZHG-kS-QSS"/>
+                        <outlet property="statePicker" destination="DZh-nc-bcZ" id="7aE-Vh-D6n"/>
+                        <outlet property="submitBtn" destination="VPL-Co-x2N" id="1h9-nP-ed9"/>
+                        <outlet property="view" destination="zIA-bC-VGG" id="cqM-Te-bVm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fy0-Hv-RaI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-107" y="-55"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="zDL-kO-Tds">
+            <objects>
+                <tableViewController id="cpl-LJ-yWR" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="rvI-nc-W2E">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="7Lp-k8-q08">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7Lp-k8-q08" id="rUk-iI-qvH">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="cpl-LJ-yWR" id="R3l-3u-MNk"/>
+                            <outlet property="delegate" destination="cpl-LJ-yWR" id="haQ-5N-QRF"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="DW1-Bz-XEG"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VEf-XX-fgk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="820" y="-55"/>
+        </scene>
+    </scenes>
+</document>
